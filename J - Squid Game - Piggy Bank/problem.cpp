@@ -6,5 +6,6 @@ int main() {
     cin >> N >> K;
     int total = (N - K) * 10000;
     cout << total;
+    
     return 0;
 }
