@@ -12,5 +12,6 @@ int main() {
         cout << "Sufficient";
     else
         cout << "High";
+    
     return 0;
 }
