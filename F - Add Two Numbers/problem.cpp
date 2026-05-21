@@ -8,7 +8,6 @@ int main() {
     while(T--) {
         int A, B;
         cin >> A >> B;
-
         cout << A + B << endl;
     }
 
