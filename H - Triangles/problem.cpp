@@ -6,7 +6,6 @@ int main() {
     cin >> A >> B;
 
     int x = 180 - (A + B);
-
     cout << x;
 
     return 0;
