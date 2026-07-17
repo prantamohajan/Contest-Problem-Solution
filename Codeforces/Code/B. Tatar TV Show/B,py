@@ -1,0 +1,14 @@
+import sys
+input = sys.stdin.readline
+ 
+t = int(input())
+for _ in range(t):
+    n, k = map(int, input().split())
+    s = input().strip()
+    ok = True
+    for r in range(k):
+        ones = sum(1 for j in range(r, n, k) if s[j] == '1')
+        if ones % 2 != 0:
+            ok = False
+            break
+    print("YES" if ok else "NO")
